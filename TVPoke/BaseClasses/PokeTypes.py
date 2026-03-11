@@ -48,10 +48,7 @@ class Dark(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "DARK", "BUG", moves, imgPath)
 
-class Bug(Pokemon):
-    def __init__(self, name, hp, moves, imgPath):
-        super().__init__(name, hp, "BUG", "FIRE", moves, imgPath)
-
 class Ice(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "ICE", "FIRE", moves, imgPath)
+
